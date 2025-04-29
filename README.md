@@ -12,6 +12,9 @@ resources: 5
 * Get comfortable creating, merging, pushing, and pulling branches
 * Resolve merge conflicts
 
+## Lauren Here:
+
+(╯°□°）╯︵ ┻━┻
 
 
 ## Instructions
