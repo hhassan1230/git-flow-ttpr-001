@@ -13,6 +13,10 @@ resources: 5
 * Resolve merge conflicts
 
 
+## Lauren Here:
+
+(╯°□°）╯︵ ┻━┻
+
 
 ## Instructions
 
@@ -238,7 +242,7 @@ Just to review, this is the chronological order of this lab complete with a diag
 9. "Lauren" makes branch add-fireflies off of master and adds an emoticon to the readme
 11. add firefly pic and caption to add-firefly branch
 12. merge add-firefly into master
-
+added table flip to readme
 Without looking at the diagram above, try and draw your own visualization. Take a picture of your work and add that image to the `public/img/` folder. Title your drawing "drawing.png".
 
 ### Quiz Time
