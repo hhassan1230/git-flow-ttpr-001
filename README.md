@@ -8,9 +8,15 @@ resources: 5
 
 ## Objectives
 
+
+
 * Get familiar with git syntax
 * Get comfortable creating, merging, pushing, and pulling branches
 * Resolve merge conflicts
+
+## Lauren Here:
+
+(╯°□°）╯︵ ┻━┻
 
 
 
@@ -274,6 +280,8 @@ Now you have:
   * Deleted a remote branch
 * Extra Credit
   * Practiced resolving merge conflicts, pushing, and deleting branches
+ 
+  * added table flip to readme
 
 ## Resources
 * [SourceTree Blog](http://blog.sourcetreeapp.com/) - [Merge or Rebase?](http://blog.sourcetreeapp.com/2012/08/21/merge-or-rebase/)
