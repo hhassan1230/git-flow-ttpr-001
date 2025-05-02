@@ -33,7 +33,7 @@ describe "GIT" do
     encoded_answer = "00565151beeb1fa3682d6386399eaf87b788a5bc"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "PUSHING:" do
   it "6. From the master branch, what is the syntax for pushing the master branch 
@@ -65,7 +65,7 @@ describe "GIT" do
     encoded_answer = "b0ce3fc84df6855995340cf16bce42f90ac9f9ab"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "FETCHING:" do
   it "10. What command do you run to update all branches from all remotes?" do
@@ -88,7 +88,7 @@ describe "GIT" do
     encoded_answer = "10ce0782f27a2e126f7fe0f12dd189cc16578e26"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "PULLING:" do
 
@@ -113,7 +113,7 @@ describe "GIT" do
     encoded_answer = "6c3209e77d80f4f76e692f6b7a9fb9be17068e3e"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "BRANCHING:" do
   it "16. What is the syntax for creating a new branch called 'style-image'?" do
@@ -177,7 +177,7 @@ describe "GIT" do
     encoded_answer = "7cb6efb98ba5972a9b5090dc2e517fe14d12cb04"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "MERGING:" do
   it '24. To merge a feature branch into master, you must first be on master' do
@@ -210,7 +210,7 @@ describe "GIT" do
     encoded_answer = "5ffe533b830f08a0326348a9160afafc8ada44db"
     expect(encode(answer)).to eq(encoded_answer)
   end
-# end
+ end
 
  describe "DELETING BRANCHES:" do
   it "28. From master, what is the syntax for deleting a local branch called 
@@ -234,7 +234,7 @@ describe "GIT" do
     expect(encode(answer)).to eq(encoded_answer)
   end
 
-# end
+ end
 
  describe "STATUS" do
   it "31. If index.html is being tracked and you modify it, but don't stage this change,
