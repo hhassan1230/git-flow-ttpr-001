@@ -1,5 +1,5 @@
 describe "GIT" do
-# describe "STAGING AND COMMITTING CHANGES:" do
+ describe "STAGING AND COMMITTING CHANGES:" do
   it "1. What is the syntax for staging a change in index.html if it is in the root dir?" do
     answer = "git add index.html"
     encoded_answer = "bf338924ddc9ff4eb0c685a794960e0c4ffade2c"
@@ -35,7 +35,7 @@ describe "GIT" do
   end
 # end
 
-# describe "PUSHING:" do
+ describe "PUSHING:" do
   it "6. From the master branch, what is the syntax for pushing the master branch 
       to the remote master branch where the remote is called 'origin'?" do
     answer = "git push origin master"
@@ -67,7 +67,7 @@ describe "GIT" do
   end
 # end
 
-# describe "FETCHING:" do
+ describe "FETCHING:" do
   it "10. What command do you run to update all branches from all remotes?" do
     answer = "git fetch --all"
     encoded_answer = "01e5711a6878a7ed0e4c0078870b772d0a58f510"
@@ -90,7 +90,7 @@ describe "GIT" do
   end
 # end
 
-# describe "PULLING:" do
+ describe "PULLING:" do
 
   it "13. Is 'git pull' the same as running 'git fetch' followed by 'git merge'?" do
     # "true" or "false" in a string
@@ -115,7 +115,7 @@ describe "GIT" do
   end
 # end
 
-# describe "BRANCHING:" do
+ describe "BRANCHING:" do
   it "16. What is the syntax for creating a new branch called 'style-image'?" do
     answer = "git branch style-image"
     encoded_answer = "a905f4cf88cdf57f8c406f2d5e7eb0acafe44c05"
@@ -179,7 +179,7 @@ describe "GIT" do
   end
 # end
 
-# describe "MERGING:" do
+ describe "MERGING:" do
   it '24. To merge a feature branch into master, you must first be on master' do
     # "true" or "false", in a string
     answer = "true"
@@ -212,7 +212,7 @@ describe "GIT" do
   end
 # end
 
-# describe "DELETING BRANCHES:" do
+ describe "DELETING BRANCHES:" do
   it "28. From master, what is the syntax for deleting a local branch called 
       'add-link'?" do
     answer = "git branch -d add-link"
@@ -236,7 +236,7 @@ describe "GIT" do
 
 # end
 
-# describe "STATUS" do
+ describe "STATUS" do
   it "31. If index.html is being tracked and you modify it, but don't stage this change,
       what color will it be if you run 'git status'?" do
     answer = "red"
